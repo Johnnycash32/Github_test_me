@@ -1,0 +1,28 @@
+print ('locating a member of the DC justice league')
+print("\33[30m", "without asking for their names directly", "\33[42m",)
+superMan = input('Do kryptonite harm you?  ')
+if superMan == ("yes"):
+  print("\33[0m", "Then you are", "\33[42m", "Superman", "\33[0m", "help us")
+  print("the world is coming to an end!", "\33[44m",)
+else:
+  print('\33[0m', 'then you aint', '\33[42m', 'superman', '\33[44m',)
+batMan = input("are you the richest superhero that uses a very black supercool ride and wears a black bat cape?  ")
+if batMan == ('yes'):
+  print("\33[0m", "okay", "\33[44m", "Batman", "\33[0m", "we really need your help")
+  print("and summon the justice league will you? please", "\33[45m",)
+else:
+  print("\33[0m", "my goodness you are not", "\33[44m", "Batman", "\33[0m", "who are you then?", "\33[45m",)
+wonderwoman = input("are you that woman with the sexy butts and beautiful face?  ")
+if wonderwoman == ('yes'):
+  print ("\33[0m", "oh thank goodness, it's the beautiful", "\33[45m", "wonderwoman", "\33[0m",)
+  print ("help us do your wonders, this bad guys are too", "\33[31m", "dangerous", "\33[0m", "please!!", "\33[43m",)
+else:
+  print("\33[0m", "you can't be that", "\33[45m", "wonderwoman", "\33[0m", "then")
+  print("\33[31m", "oh gosh!", "\33[43m",)
+joker = input("do you crack jokes and dress like a rich clown?  ")
+if joker == ('yes'):
+  print("\33[0m", "ahhh! i see! you are the", "\33[43m", "joker", "\33[0m",)
+  print("\33[0m", "quit messing with us if you cant help please",)
+  print('we dont want your troubles', "\33[46m",)
+else:
+  print('then help us locate a member of the justice league please')
